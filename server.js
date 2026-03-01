@@ -42,4 +42,4 @@ app.post('/chat', async (req, res) => {
     }
 });
 
-app.listen(PORT, () => console.log(`Servidor rodando em http://localhost:${PORT}`));
+app.listen(PORT, () => console.log(`Servidor rodando em https://luccaskoe.github.io/CSS-gerador-com-IA/`));

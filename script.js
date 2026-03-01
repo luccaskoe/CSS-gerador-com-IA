@@ -88,7 +88,7 @@ Array - Estrutura de dados que armazena uma coleção de elementos, acessados po
  async function enviarMensagem(textoUsuario) {  
    /* let textoUsuario = document.querySelector(".caixa-texto").value */// Pega o valor da textarea e armazena em uma variável
  
-   let resposta = await fetch("http://localhost:3000/chat", {
+   let resposta = await fetch("https://luccaskoe.github.io/CSS-gerador-com-IA/", {
     method: "POST",
     headers: {
     "Content-Type": "application/json"
