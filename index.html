@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <link href="https://cdn.jsdelivr.net/npm/prismjs/themes/prism-tomorrow.css" rel="stylesheet" />
+
+    <script src="https://cdn.jsdelivr.net/npm/prismjs/prism.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs/components/prism-css.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs/components/prism-javascript.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs/components/prism-markup.min.js"></script>
+
+   <link rel="stylesheet" href="style.css"> 
+
+    <title>Gerador IA</title>
+
+</head>
+<body>
+    <h1>
+        CSS Gerador <span> com IA </span>  🕵️‍♂️
+    </h1>
+
+    <p>
+        Descreva o que deseja gerar e clique no botão "Gerar". E veja a mágica acontecer!.
+    </p>
+
+    <textarea 
+        rows="3" class="caixa-texto" placeholder="Ex: Bola vermelha pulando...">
+    </textarea>
+
+    <button id="botao-disply" class="gerador">
+        Gerar Código⚡
+    </button>
+
+    <div id="container" class="container hidden">
+        
+     <div class="card-codigo">
+        <h2 class="txt">Código</h2>
+        <pre class="bloco-codigo">
+            <code id="codigoGerado"></code>
+        </pre>
+        <!--<p class="bloco-codigo">
+        </p> -->
+    </div>
+    
+    <div class="card-resultado">
+        <h2 class="txt">Preview</h2>
+            <iframe class="resultado-codigo">
+
+    </iframe>
+
+    </div>
+    <!-- colocar código dentro / página aqui dentro do iframe -->
+    </div>
+    
+</body>
+
+<script src="script.js"></script>
+
+</html>
